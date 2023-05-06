@@ -1,0 +1,35 @@
+<!DOCTYPE html><html lang="en"><head>
+  <script src="libraries/p5.js"></script>
+  <script src="libraries/p5.dom.min.js"></script>
+  <script src="libraries/p5.play.js"></script>
+
+  <script src="js/form.js"></script>
+<!--Link game.js and player.js-->
+<script src="js/game.js"></script>
+<script src="js/player.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-database.js"></script>
+
+<!--Add database config here below-->
+<script>const firebaseConfig = {
+  apiKey: "AIzaSyDq-Fk5riJh4bTHBD9GzDNM8Mh7VzF_2Bw",
+  authDomain: "multiplayer-car-racing-g-277db.firebaseapp.com",
+  databaseURL: "https://multiplayer-car-racing-g-277db-default-rtdb.firebaseio.com",
+  projectId: "multiplayer-car-racing-g-277db",
+  storageBucket: "multiplayer-car-racing-g-277db.appspot.com",
+  messagingSenderId: "470392063432",
+  appId: "1:470392063432:web:3e07d17a436e05566f2cfd"
+};
+firebase.initializeApp(firebaseConfig)
+</script>
+  
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="utf-8">
+
+</head>
+<body>
+  <script src="sketch.js"></script>
+
+
+
+</body></html>
